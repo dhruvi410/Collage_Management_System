@@ -1,0 +1,1 @@
+/home/udit/flutter_sdk/flutter/bin/flutter build apk --target-platform android-arm,android-arm64 --release --split-per-abi

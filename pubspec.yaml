@@ -1,0 +1,66 @@
+name: college_managment
+description: collage
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_slider:
+
+  cupertino_icons: ^0.1.2
+  intl: 0.16.0
+  carousel_pro: ^1.0.0
+  table_calendar: ^2.2.2
+  firebase_core: ^1.3.0
+  cloud_firestore: ^1.0.4
+  fluttertoast: ^8.0.7
+  firebase_auth:
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: ProductSans
+      fonts:
+        - asset: fonts/ProductSans.ttf
+  assets:
+    - assets/academic_calendar.png
+    - assets/academic_fees.png
+    - assets/student_attendance.png
+    - assets/student_profile.png
+    - assets/student_result.png
+    - assets/schedule.png
+    - assets/salary.png
+    - assets/student_attendance_faculty.png
+    - assets/faculty_profile.png
+    - assets/student.png
+    - assets/faculty.png
+    - assets/admin.png
+    - assets/img1.jpg
+    - assets/img2.jpg
+    - assets/img3.jpg
+    - assets/img4.jpg
+    - assets/img5.jpg
+    - assets/img6.jpg
+    - assets/logo.png
+    - assets/logo1.png
+    - assets/register.png
+    - assets/Exam.png
